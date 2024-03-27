@@ -29,6 +29,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+
+
+
+          
