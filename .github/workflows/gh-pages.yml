@@ -4,7 +4,7 @@ name: GitHub pages
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://hugoinaction.github.io/GitHubPages
+        run: hugo --minify --baseURL=https://backgroundclouds.github.io/CCBbaby/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
